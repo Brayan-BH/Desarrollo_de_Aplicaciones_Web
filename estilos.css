@@ -1,0 +1,25 @@
+header{
+    background-color: #faa307;
+}
+main > #Contact {
+    background-color: #faa307;
+}
+main > #Service {
+    background-color: #caf0f8;
+}
+main > #SomeoneElse {
+    background-color: #faa307;
+}
+main > #Employees {
+    background-color: #caf0f8;
+}
+main > #Rate {
+    background-color: #faa307;
+}
+main > #Posts {
+    background-color: #caf0f8;
+}
+footer{
+    background-color: #343a40;
+}
+
