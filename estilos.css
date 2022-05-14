@@ -1,7 +1,46 @@
-header{
-    background-color: #faa307;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-main > #Contact {
+.menu{
+    background-color: #e09f3e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo{
+    position: relative;
+    /* width: 150px; */
+    height: 50px;
+}
+.menu li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 ;
+    padding: 0;
+        
+}
+.menu ul li{
+    display:inline-block;
+    text-decoration: none;
+}
+.menu ul li a{
+    color: #fff;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    background-color: #335c67;
+}
+.buscador{
+    border-radius: 4px;
+    padding: 3px 4px;
+    margin-right: 15px;
+    margin-top: 15px;
+    float: right;
+}
+    
+main > section {
     background-color: #faa307;
 }
 main > #Service {
@@ -22,4 +61,5 @@ main > #Posts {
 footer{
     background-color: #343a40;
 }
+
 
