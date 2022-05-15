@@ -6,134 +6,189 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Web </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos.css"> 
 </head>
 <body>
     <!-- Estructura Html-Web -->
 
     <header>
-        <nav class="menu">
-            <ul>
-                <img class="logo" src="imagenes/logo.PNG" alt="Logo"/>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Service</a></li>
-                    <li><a href="">Contact</a></li>
-                    <input type="search" name="buscar" id="buscador" class="buscador">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+            <div class="container" style="color: #fffffc;">
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#"><img src="./imagenes/logo.PNG" alt="Logo" height="50"
+                    alt="MDB Logo"
+                    loading="lazy"
+                    style="margin-top: 2px;"></a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item d-flex align-content-around">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                  </li>
+                  
                 </ul>
-        </nav>
+                <form class="d-flex input-group w-auto">
+                  <input
+                    type="search"
+                    class="form-control"
+                    placeholder="Type query"
+                    aria-label="Search"
+                  />
+                  <button
+                    class="btn btn-outline-primary"
+                    type="button"
+                    data-mdb-ripple-color="dark"
+                  >
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <Section class="section1" id="Contact">
-            <h2>First I Wanted to be a veterinarian</h2>
+        <Section id="Contact" style="background-color: #ffb703; color: #fffffc; padding: 150px;">
+                <div class="container">
+                    <div class="media">
+                        <a class="float-lg-end" href="#">
+                            <img  src="./imagenes/dog1.png" alt="dog1">
+                        </a>
+                    </div> 
+                    <h2>First I Wanted to be a veterinarian</h2>
+                        <p>Laborum veniam elit irure incididunt. Ad dolore magna in consequat laborum voluptate cupidatat mollit ipsum aliqua minim ea. 
+                        Elit occaecat eu sint consectetur aliqua amet voluptate amet nostrud magna ut voluptate magna sunt.</p>        
+                    <button class="btn btn-info">Contact Us</button>
+                    <button class="btn btn-outline-light">Our Service</button>
+                    
+                </div>
+            </Section>
+        <Section class="" id="Service" style="background-color: #fffffc">
+            <div class="container">
+                <h3>As a veterinarian and Lover of animals</h3>
                 <p>Laborum veniam elit irure incididunt. Ad dolore magna in consequat laborum voluptate cupidatat mollit ipsum aliqua minim ea. 
-                Elit occaecat eu sint consectetur aliqua amet voluptate amet nostrud magna ut voluptate magna sunt.</p>            
-            <button>Contact Us</button>
-            <button>Our Service</button>
+                    Elit occaecat eu sint consectetur aliqua amet voluptate amet nostrud magna ut voluptate magna sunt.</p>
+                    <button>Our Service</button>
+                    <video src="https://www.youtube.com/watch?v=znjbyrslLDw"></video>
+            </div>
         </Section>
-        <Section class="section2" id="Service">
-            <h3>As a veterinarian and Lover of animals</h3>
-            <p>Laborum veniam elit irure incididunt. Ad dolore magna in consequat laborum voluptate cupidatat mollit ipsum aliqua minim ea. 
-                Elit occaecat eu sint consectetur aliqua amet voluptate amet nostrud magna ut voluptate magna sunt.</p>
-                <button>Our Service</button>
-                <video src="https://www.youtube.com/watch?v=znjbyrslLDw"></video>
+        <Section class="" id="SomeoneElse" style="background-color: #ffb703; color: #fffffc;">
+            <div class="container">
+                <h1>Title Here</h1>
+                <p>Laborum veniam elit irure incididunt. Ad dolore magna in consequat laborum voluptate cupidatat mollit ipsum aliqua minim ea. 
+                    Elit occaecat eu sint consectetur aliqua amet voluptate amet nostrud magna ut voluptate magna sunt.</p>
+                <img src="#" alt="Imagen1">
+                <span>Text 1</span>
+                <img src="#" alt="Imagen2">
+                <span>Text 2</span>
+                <img src="#" alt="Imagen3">
+                <p>Text 3</p>
+            </div>
         </Section>
-        <Section class="section3" id="SomeoneElse">
-            <h1>Title Here</h1>
-            <p>Laborum veniam elit irure incididunt. Ad dolore magna in consequat laborum voluptate cupidatat mollit ipsum aliqua minim ea. 
-                Elit occaecat eu sint consectetur aliqua amet voluptate amet nostrud magna ut voluptate magna sunt.</p>
-            <img src="#" alt="Imagen1">
-            <span>Text 1</span>
-            <img src="#" alt="Imagen2">
-            <span>Text 2</span>
-            <img src="#" alt="Imagen3">
-            <p>Text 3</p>
+        <Section class="" id="Employees">
+            <div class="container">
+                <img src="#" alt="Employee1">
+                <br>
+                <p>Text 1</p>
+                <br>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <br>
+                <img src="#" alt="Employee2">
+                <br>
+                <p>Text 2</p>
+                <br>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <br>
+                <img src="#" alt="Employee3">
+                <br>
+                <p>Text 3</p>
+                <br>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+            </div>
         </Section>
-        <Section class="section4" id="Employees">
-            <img src="#" alt="Employee1">
-            <br>
-            <p>Text 1</p>
-            <br>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <br>
-            <img src="#" alt="Employee2">
-            <br>
-            <p>Text 2</p>
-            <br>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <br>
-            <img src="#" alt="Employee3">
-            <br>
-            <p>Text 3</p>
-            <br>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
+        <Section class="" id="Rate" style="background-color: #fffffc;">
+            <div class="container">
+                <img src="#" alt="Happy Clients">
+                <p>+34793</p>
+                <p>Happy Clients</p>
+                <img src="#" alt="Department">
+                <p>+45382</p>
+                <p>Department</p>
+                <img src="#" alt="Vaccinations">
+                <p>+54762</p>
+                <p>Vaccinations</p>
+            </div>
         </Section>
-        <Section class="section5" id="Rate">
-            <img src="#" alt="Happy Clients">
-            <p>+34793</p>
-            <p>Happy Clients</p>
-            <img src="#" alt="Department">
-            <p>+45382</p>
-            <p>Department</p>
-            <img src="#" alt="Vaccinations">
-            <p>+54762</p>
-            <p>Vaccinations</p>
-        </Section>
-        <Section class="section6" id="Posts">
-            <h2>Recent Posts</h2>
-            <p>Qui aute dolore officia ea duis et aute dolore cupidatat.</p>
-                <div class="card1">
-                    <img src="#" alt="img1">
-                    <p>As a veterinarian and Lover of animals</p>
-                    <p>February 09 2020</p>
-                    <p>Nulla consequat tempor nisi Lorem occaecat esse Lorem ullamco exercitation reprehenderit laboris adipisicing.</p>
-                    <a href="#">Read more</a>
-                </div>
-                <div class="card1">
-                    <img src="#" alt="img2">
-                    <img src="#" alt="img1">
-                    <p>As a veterinarian and Lover of animals</p>
-                    <p>February 09 2020</p>
-                    <p>Nulla consequat tempor nisi Lorem occaecat esse Lorem ullamco exercitation reprehenderit laboris adipisicing.</p>
-                    <a href="#">Read more</a>
-                </div>
-                <div class="card1">
-                    <img src="#" alt="img3">
-                    <img src="#" alt="img1">
-                    <p>As a veterinarian and Lover of animals</p>
-                    <p>February 09 2020</p>
-                    <p>Nulla consequat tempor nisi Lorem occaecat esse Lorem ullamco exercitation reprehenderit laboris adipisicing.</p>
-                    <a href="#">Read more</a>
-                </div>
+        <Section class="" id="Posts" style="background-color: #ffb703; color: #fffffc;">
+            <div class="container">
+                <h2>Recent Posts</h2>
+                <p>Qui aute dolore officia ea duis et aute dolore cupidatat.</p>
+                    <div class="card1">
+                        <img src="#" alt="img1">
+                        <p>As a veterinarian and Lover of animals</p>
+                        <p>February 09 2020</p>
+                        <p>Nulla consequat tempor nisi Lorem occaecat esse Lorem ullamco exercitation reprehenderit laboris adipisicing.</p>
+                        <a href="#">Read more</a>
+                    </div>
+                    <div class="card1">
+                        <img src="#" alt="img2">
+                        <img src="#" alt="img1">
+                        <p>As a veterinarian and Lover of animals</p>
+                        <p>February 09 2020</p>
+                        <p>Nulla consequat tempor nisi Lorem occaecat esse Lorem ullamco exercitation reprehenderit laboris adipisicing.</p>
+                        <a href="#">Read more</a>
+                    </div>
+                    <div class="card1">
+                        <img src="#" alt="img3">
+                        <img src="#" alt="img1">
+                        <p>As a veterinarian and Lover of animals</p>
+                        <p>February 09 2020</p>
+                        <p>Nulla consequat tempor nisi Lorem occaecat esse Lorem ullamco exercitation reprehenderit laboris adipisicing.</p>
+                        <a href="#">Read more</a>
+                    </div>
+            </div>
         </Section>
     </main>
-    <footer>
-        <section class="About">
-            <ul>
-                <od>About</od>
-                <li>History</li>
-                <li>Aour Team</li>
-                <li>Brand Guidelines</li>
-            </ul>
-        </section>
-        <section class="Services">
-            <ul>
-                <od>Services</od>
-                <li>How to order</li>
-                <li>Our products</li>
-                <li>Order Status</li>
-            </ul>
-        </section>
-        <section class="footer3">
-            <od>title Here</od>
-            <p>Culpa officia nisi duis in aute nostrud deserunt sit labore.</p>
-        </section>
+    <footer class="" style="background-color: #343a40; color: #fffffc;">
+        <div class="container">
+            <section class="About">
+                <ul>
+                    <od>About</od>
+                    <li>History</li>
+                    <li>Aour Team</li>
+                    <li>Brand Guidelines</li>
+                </ul>
+            </section>
+            <section class="Services">
+                <ul>
+                    <od>Services</od>
+                    <li>How to order</li>
+                    <li>Our products</li>
+                    <li>Order Status</li>
+                </ul>
+            </section>
+            <section class="footer3">
+                <od>title Here</od>
+                <p>Culpa officia nisi duis in aute nostrud deserunt sit labore.</p>
+            </section>
+        </div>
     </footer>
+
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
 </body>
 </html>

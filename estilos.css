@@ -1,65 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.menu{
-    background-color: #e09f3e;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.logo{
-    position: relative;
-    /* width: 150px; */
-    height: 50px;
-}
-.menu li{
-    display: inline-block;
-    list-style: none;
-    margin: 0 ;
-    padding: 0;
-        
-}
-.menu ul li{
-    display:inline-block;
-    text-decoration: none;
-}
-.menu ul li a{
-    color: #fff;
-    display: block;
-    padding: 20px;
-    text-decoration: none;
-}
-.menu ul li a:hover{
-    background-color: #335c67;
-}
-.buscador{
-    border-radius: 4px;
-    padding: 3px 4px;
-    margin-right: 15px;
-    margin-top: 15px;
-    float: right;
-}
-    
-main > section {
-    background-color: #faa307;
-}
-main > #Service {
-    background-color: #caf0f8;
-}
-main > #SomeoneElse {
-    background-color: #faa307;
-}
-main > #Employees {
-    background-color: #caf0f8;
-}
-main > #Rate {
-    background-color: #faa307;
-}
-main > #Posts {
-    background-color: #caf0f8;
-}
-footer{
-    background-color: #343a40;
-}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Roboto:wght@300;400;700&family=Rock+Salt&family=Shizuru&family=Trocchi&family=Yellowtail&display=swap');
 
-
+h2{
+    font-size: 80px;
+}
+p{
+    font-size: 23px;
+}
