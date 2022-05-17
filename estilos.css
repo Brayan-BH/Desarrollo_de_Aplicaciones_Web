@@ -28,3 +28,34 @@ h3{
 #foot p {
     font-size: 50px;
 }
+
+#employee{
+    display: flex;
+    justify-content: space-around;
+}
+
+#info{
+    display: flex;
+    justify-content: space-around;
+}
+    #info a{
+        color: #ffb703;
+    }
+
+#social{
+    display: inline;
+}
+    #social a{
+        text-decoration: none;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    /* #social p{
+        text-align: inherit;
+        font-weight: bold; 
+    }  */
+
+    #carrer{
+        font-size: 18px;
+    }
