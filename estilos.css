@@ -59,3 +59,26 @@ h3{
     #carrer{
         font-size: 18px;
     }
+#section5{
+    
+    background: linear-gradient(rgba(245, 178, 39, 0.8),rgba(245, 178, 39, 0.8)),
+    url(./imagenes/fondo.jpg) no-repeat center center ;
+    background-size: cover;
+}
+    #number{
+        font-size: 30px;
+    }
+    #centrar{
+        display: flex;
+        justify-content: space-around;
+        font-size: 70px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    #subtxt {
+        text-align: center;
+        font-size: 40px;
+    }
+
+  
